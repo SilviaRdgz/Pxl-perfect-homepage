@@ -1,0 +1,331 @@
+*,::before, ::after {
+    margin: 0;
+    padding: 0;
+    /* scroll-behavior: smooth; */
+}
+
+header {
+    background-image: url(/PUBLIC/images/mobile/image-hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: left;
+    color: white;
+     
+}
+
+nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 10%;
+    }
+    
+    .nav-li {
+        display: none;
+        
+    }
+    
+    #hamburger{
+        display:flex;
+        align-items:center;
+        align-self: center;
+        flex-direction:column;
+        cursor:pointer;
+        margin:  ;
+
+      }
+      
+      #hamburger span{
+        background-color:ghostwhite;
+        width:2em;
+        height:.2em;
+        margin:0.26em 0;
+        display:block;
+        transition: all .4s ease;
+        transform-origin:0 0;
+      }
+      
+      .Diam span:nth-child(1) {
+        transform: rotate(45deg) translate(1px, -1px);
+      }
+      
+      .Diam span:nth-child(2) {
+        Transform: scaleX(0);
+      }
+      
+      .Diam span:nth-child(3) {
+        transform: rotate(-45deg) translate(1px, 0);
+      }
+    
+
+a, li {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%)
+}
+
+
+p {
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 0%, 55%);
+    margin: 30px 20px 30px 20px;
+    text-align: center;
+    line-height: 1.6;
+
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 41%);
+    margin: 30px 5px 30px 5px;
+    text-align: center;
+    padding: 0;
+}
+
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: left;
+}
+
+h4 {
+    border: 0.5px hsl(0, 0%, 0%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    padding: 5% 30% 5% 20%;
+
+}
+
+.text-container {
+position: relative;
+text-align: center;
+color: white;
+}
+
+.bottom-left {
+position: absolute;
+bottom: 16px;
+left: 16px;
+}
+
+.btn {
+    display: block;
+    text-align: center
+}
+.see-btn {
+    background-color: transparent;
+    width: 50%;
+}
+
+.portrait-img {
+    display: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+section {
+    margin: 20% 5% 30% 5%;
+}
+
+
+footer {
+    background-color: hsl(0, 0%, 0%);
+    
+}
+
+.footer-container {
+    margin: 0 5% 30% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.footer-logo {
+    display: block;
+    margin-top: 15%;
+padding-left: 20%;
+}
+
+.footer-links {
+    display: block;
+    text-align: center;
+}
+
+.footer-links li {
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.socials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+svg {
+    margin: 10px;
+}
+header h1 {
+    position: absolute;
+    border: 1px solid white;
+    text-align: left;
+    margin: 40% 5% 30% 5%;
+    padding: 5%;
+
+}
+
+.rights-text {
+
+}
+
+@media (min-width: 500px) {
+
+header {
+    background-image: url(/PUBLIC/images/desktop/image-hero.jpg);
+    background-size: contain;
+    background-position-y: top;    
+}
+
+header h1 {
+    border: 1px solid white;
+    margin: 5% 5% 0% 10%;
+    padding: 3%;
+
+
+}
+nav {
+    padding: 3% 10% 0% 9%;
+}
+.nav-li {
+    display: block;
+    
+}
+.nav-li li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+#hamburger{
+    display:none;
+
+  }
+
+
+section {
+    margin: 10% 10% 10% 10%;
+}
+
+.VR-container {
+
+}
+.VR-text {
+    border: 1px solid black;
+    
+
+}
+
+.creations-title h2{
+    text-align: left;
+}
+
+
+
+
+.landscape-img {
+    display: none;
+}
+.portrait-img {
+    display: block;
+    padding-bottom: 5%;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 50px;
+    left: 16px;
+    }
+
+.images-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+
+.see-btn {
+    position: absolute;
+}
+
+
+
+.footer-container {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.footer-logo {
+    display: flex;
+    align-self:flex-start;
+    margin-top: 3%;
+
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+
+}
+
+.footer-links li {
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.socials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 0%;
+}
+
+
+
+
+}
+
+
+
+
+
+
