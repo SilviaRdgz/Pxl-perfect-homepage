@@ -5,46 +5,49 @@ h2 {
     margin: 0
 }
 
-    .nav-bar {
-        padding-top: 5%
-    }
+.logo {
+    margin: 3% 0% 0% 10%;
+}
+.openMenu {
+    display: none;
+}
 
-    .nav-ul {
-        order: 3;
-        margin-left: 10%;
-    }
 
-    .nav-li {
-        display: block;
-        
-    }
-    .nav-li li {
-        display: inline-block;
-        padding: 0 15px;
+.mainMenu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: transparent;
+    height: 8vh;
+    transition: none;
+    right: 0;
+    margin-right: 10%
+
+}
+.closeMenu {
+    display: none;
+}
+
+header {
+    background-image: url(/PUBLIC/images/desktop/image-hero.jpg);
+    background-size: contain;
+    background-position-y: top;   
+    height: 50vh;
+
+
+}
+    
+.header-text {
+    position: absolute;
+    margin: 5% 45% 0% 10%;  
     }
     
-    .hamburger-menu{
-        display: none;
-        order: 2
-    
-      }
-    
-    header {
-        background-image: url(/PUBLIC/images/desktop/image-hero.jpg);
-        background-size: contain;
-        background-position-y: top;    
-    }
-    .header-text {
-        position: absolute;
-        margin: 5% 45% 0% 5%;  
-    }
-    
-    .header-text h1 {
+.header-text h1 {
         font-size: 4rem;
     }
     
-    section {
-        margin: 10% 10% 10% 10%;
+section {
+        margin: 0% 10% 10% 10%;
     }
     
     .VR-container {
@@ -74,9 +77,9 @@ h2 {
         text-align: left;
         padding-left: 10%;
         margin-left: 0px;
+
     
     }
-    
     
     .creations-section {
         display: flex;
@@ -180,6 +183,7 @@ h2 {
     .socials-container li{
         padding-top: 0%;
         padding-bottom: 0%;
+
 
     }
 
