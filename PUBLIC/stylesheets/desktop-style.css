@@ -1,0 +1,195 @@
+@media (min-width: 500px) {
+
+
+h2 {
+    margin: 0
+}
+
+    .nav-bar {
+        padding-top: 5%
+    }
+
+    .nav-ul {
+        order: 3;
+        margin-left: 10%;
+    }
+
+    .nav-li {
+        display: block;
+        
+    }
+    .nav-li li {
+        display: inline-block;
+        padding: 0 15px;
+    }
+    
+    .hamburger-menu{
+        display: none;
+        order: 2
+    
+      }
+    
+    header {
+        background-image: url(/PUBLIC/images/desktop/image-hero.jpg);
+        background-size: contain;
+        background-position-y: top;    
+    }
+    .header-text {
+        position: absolute;
+        margin: 5% 45% 0% 5%;  
+    }
+    
+    .header-text h1 {
+        font-size: 4rem;
+    }
+    
+    section {
+        margin: 10% 10% 10% 10%;
+    }
+    
+    .VR-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .img-left img{
+    width: 250%;
+    }
+    
+    .img-right {
+        background-color: white;
+        height: 30vh;
+        margin-top: 20%;
+        margin-left: 25%;
+    
+    }
+    .VR-text p{
+        text-align: left;
+        padding-left: 10%;
+        margin-left: 0px;
+    }
+    .VR-text h2{
+        font-size: 3rem;
+        text-align: left;
+        padding-left: 10%;
+        margin-left: 0px;
+    
+    }
+    
+    
+    .creations-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .creations-title {
+        width: 50%;
+        order: 1;
+    }
+   
+    .creations-title h2{
+        text-align: left;
+        font-size: 3rem;
+    
+    }
+    .images-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 5%;
+        order: 2;
+    }
+    
+    .landscape-img {
+        display: none;
+        
+    }
+    .portrait-img {
+        display: block;
+        padding-bottom: 15%;
+    }
+
+    .bottom-left {
+        position: absolute;
+        bottom: 70px;
+        }
+    
+    .btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 0%;
+        width: 50%;
+        order: 1;
+    }
+   
+    .see-btn {
+        width: 30%;
+    }
+    
+    .footer-container {
+        margin: 0%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 10%;
+    
+    }
+    .footer-logo {
+        display: flex;
+        align-self:flex-start;
+        margin-top: 10%;
+        padding-left: 0%;
+
+    }
+
+    .footer-links {
+        align-self:flex-start;
+        margin-top: 15px;
+
+    
+    }
+    .footer-links li{
+       display: inline;
+       padding-right: 15px;
+    }
+    
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        width: 50%;
+        margin-right: 10%;
+    }
+    
+    .socials-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-top: 10%;
+    }
+    .socials-container li{
+        padding-top: 0%;
+        padding-bottom: 0%;
+
+    }
+
+    .rights-text {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .rights-text p {
+        margin-top: 15px;
+    }
+    
+    }
+    
