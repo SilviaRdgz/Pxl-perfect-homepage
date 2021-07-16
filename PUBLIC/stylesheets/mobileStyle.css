@@ -1,3 +1,4 @@
+
 *{  box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
 body{
     overflow-x: hidden;
 }
+
 
 
 
@@ -47,7 +49,6 @@ h2 {
 
 h3{
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 25px;
@@ -71,34 +72,49 @@ nav {
 }
 
 .logo {
-    margin: 20px;
+    margin: 15% 0% 0% 8%;
     z-index: 2;
 }
 .openMenu{
     display: block;
     cursor: pointer;
-    margin: 20px;
+    margin: 50px 20px 0px 0px;
+    background: transparent;
+    border: none;
 }
-.mainMenu {
 
+.mainMenu {
+    display: none;
+    
+    
+}
+
+.showMenu {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: black;
-    height: 60vh;
+    height: 100vh;
     position: fixed;
     z-index: 1;
     top:0;
     right: 0;
     left: 0;
     transition: top 1s ease;
-    display: none;
+}
+
+.showMenu li a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 .closeMenu {
     margin-top: 20%;
     display: block;
+    background: none;
+    border: none;
 }
 .mainMenu li {
     padding: 15px;
@@ -219,9 +235,9 @@ footer {
 }
 
 .footer-logo {
-display: block;
+display: flex;
+justify-content: center;
 margin-top: 15%;
-padding-left: 20%;
 }
 
 .footer-links {
@@ -243,14 +259,6 @@ padding-left: 20%;
 
 .socials-container li{
     padding: 2%
-}
-
-.footer-logo {
-    margin-top: 10%;
-}
-
-.attribution a {
-    color: rgb(117, 116, 111);
 }
 
 

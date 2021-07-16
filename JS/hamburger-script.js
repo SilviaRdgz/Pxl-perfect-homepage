@@ -1,20 +1,12 @@
-const mainMenu = document.querySelector('.mainMenu');
-const closeMenu = document.querySelector('.closeMenu');
-const openMenu = document.querySelector('.openMenu');
+function showMenu() {
+    var element = document.getElementById("mainMenu");
+    element.classList.add("showMenu");
+    console.log(element)
+ }
 
 
-openMenu.addEventListener('click',show);
-closeMenu.addEventListener('click',close);
 
-
-function show(){
-    mainMenu.mobileStyle.display = 'flex';
-    mainMenu.mobileStyle.top = '0';
-
-}
-
-function close() {
-    mainMenu.mobileStyle.top = '-100%';
-
-}
-
+ function closeMenu() {
+    var element = document.getElementById("mainMenu");
+    element.classList.remove("showMenu");
+ }
