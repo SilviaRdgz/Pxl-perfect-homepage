@@ -1,16 +1,17 @@
 
-*{  box-sizing: border-box;
+* {  box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-
-
+a:hover {
+    border-bottom: 1px solid white;
+}
 
 a, li {
     list-style: none;
@@ -20,7 +21,6 @@ a, li {
     color: hsl(0, 0%, 100%)
 }
 
-
 p {
     font-size: 15px;
     font-family: 'Alata', sans-serif;
@@ -28,7 +28,6 @@ p {
     margin: 30px 20px 30px 20px;
     text-align: center;
     line-height: 1.6;
-
 }
 
 h1 {
@@ -38,6 +37,7 @@ h1 {
     color: hsl(0, 0%, 100%);
     text-align: center;
 }
+
 h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
@@ -47,7 +47,7 @@ h2 {
     padding: 0;
 }
 
-h3{
+h3 {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
@@ -63,8 +63,8 @@ h4 {
     color: hsl(0, 0%, 0%);
     text-align: center;
     padding: 5% 30% 5% 30%;
-
 }
+
 nav {
     display: flex;
     flex-direction: row;
@@ -75,7 +75,8 @@ nav {
     margin: 15% 0% 0% 8%;
     z-index: 2;
 }
-.openMenu{
+
+.openMenu {
     display: block;
     cursor: pointer;
     margin: 50px 20px 0px 0px;
@@ -84,9 +85,7 @@ nav {
 }
 
 .mainMenu {
-    display: none;
-    
-    
+    display: none;    
 }
 
 .showMenu {
@@ -116,9 +115,9 @@ nav {
     background: none;
     border: none;
 }
+
 .mainMenu li {
     padding: 15px;
-
 }
  
 header {
@@ -127,8 +126,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
-    
+    height: 100vh;  
 }
 
 .header-text {
@@ -143,26 +141,23 @@ header {
     text-align: left;
 }
 
-
 section {
     margin: 20% 5% 20% 5%;
 }
 
-.img-left img{
+.img-left img {
     display: block;
     width: 100%;
     margin-bottom: 5%;
 }
 
-.VR-text p{
+.VR-text p {
     text-align: center;
 }
 
 .VR-text h2 {
     margin: 30px 5px 30px 5px;
-
 }
-
 
 .creations-section {
     display: flex;
@@ -170,11 +165,10 @@ section {
     flex-wrap: wrap;
 }
 
-.creations-title h2{
+.creations-title h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 10%;
-
 }
 
 .images-grid {
@@ -183,19 +177,30 @@ section {
     justify-content: space-around;
 }
 
+.text-container img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.text-container img:hover {
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+
 .landscape-img {
     display: block;
     width: auto;
     height: auto;
     max-width: 100%;
     max-height: 90%;
-    margin-bottom: 5%;
-    
+    margin-bottom: 5%;    
 }
+
 .portrait-img {
     display: none;
 }
-
 
 .text-container {
 position: relative;
@@ -208,22 +213,20 @@ bottom: 30px;
 left: 16px;
 }
 
-
 .btn {
     display: block;
     text-align: center;
     margin-top: 5%;
 }
+
 .see-btn {
     background-color: transparent;
     width: 50%;
 }
 
-
 footer {
     background-color: hsl(0, 0%, 0%);
-    border: 1px solid black;
-    
+    border: 1px solid black;    
 }
 
 .footer-container {
@@ -231,7 +234,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .footer-logo {
@@ -257,12 +259,11 @@ margin-top: 15%;
     margin-top: 5%;
 }
 
-.socials-container li{
-    padding: 2%
+.socials-container li {
+    padding: 2%;
 }
 
-
-
-
-
-
+.socials-container li img:hover {
+    padding-top: 2%;
+    border-bottom: 1px solid white; 
+}

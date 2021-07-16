@@ -1,39 +1,41 @@
 @media (min-width: 1024px) {
 
-    .img-right {
-        margin-top: 15%;
-        height: 25vh;
-       
-    }
+.mainMenu li {
+    padding-top: 20%
+}
 
-    .VR-text h2{
-        padding-top: 5%;
-        font-size: 2rem;
-  
-    
-    }
-    .VR-text p{
-      
-        font-size: 15px;
-    }
-    
-    .creations-title {
-       
-        margin-top: 5%;
-    }
+.img-right {
+    margin-top: 15%;
+    height: 30vh;  
+}
 
-    .creations-title h2 {
-        font-size: 2rem;
-    }
-    .btn {
-   
-        margin-top: 5%;
-       
-    }
+.VR-container {
+    margin-top: 5%;
+}
 
-    .btn h4 {
-        padding: 0;
-        font-size: 15px;
-    }
+.VR-text h2 {
+    padding-top: 5%;
+    font-size: 2rem;
+}
 
+.VR-text p {    
+    font-size: 15px;
+}
+
+.creations-title {
+    margin-top: 5%;
+}
+
+.creations-title h2 {
+    font-size: 2rem;
+}
+
+.btn {
+    margin-top: 5%;
+}
+
+.btn h4 {
+    padding: 0;
+    font-size: 15px;
+}
 }
