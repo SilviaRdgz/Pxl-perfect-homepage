@@ -1,6 +1,6 @@
 # Landing page solution
 
-This is a challenge to create a pixel perfect and interactive landing page using modern HTML5, CSS and ES6 javascript
+This is a challenge from PXL.Widgets Heroes' traineeship. The goal is to create a pixel perfect and interactive landing page using modern HTML5, CSS and ES6 javascript
 
 ## Overview
 
