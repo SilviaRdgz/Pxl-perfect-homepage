@@ -24,3 +24,7 @@ Users should be able to:
 - Mobile-first workflow
 - Vanilla JS
 
+## How I completed the challenge
+
+https://user-images.githubusercontent.com/81960826/142027363-dfe81f08-d894-4b33-ae72-cc58723a414e.mp4
+
