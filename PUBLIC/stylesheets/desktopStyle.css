@@ -1,41 +1,182 @@
-@media (min-width: 1024px) {
+@media(min-width: 1023px){
+    header {
+        background-image: url(/PUBLIC/images/desktop/image-hero.jpg);      
+    }
+    .mainMenu {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 40px;
+        right: 80px;
+        background-color: transparent;
+        height: 20vh;
+    }
+    
+    .openMenu {
+        display: none;
+    }
+    .closeMenu {
+        display: none;
+    }
+    .logo {
+        top: 50px;
+        left: 80px;
+    }
+    .header-text {
+        position: absolute;
+        left: 80px;
+        width: 70%;
 
-.mainMenu li {
-    padding-top: 20%
+    }
+    .header-text h1 {
+        font-size: 4rem;
+        }
+    .VR-container {
+        position: relative;
+        display: flex;
+        }
+    .img-left img {
+        margin: 0;
+    }
+    .img-right {
+        position: absolute;
+        background-color: white;
+        padding: 59px;
+        width: 50%;
+        left: 500px;
+        top: 150px
+      
+    }
+    .VR-text h2 {
+        font-size: 2rem;
+        text-align: left;
+        padding: 0;
+    }
+    .VR-text p {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: left;
+    }
+    .creations-section {
+        flex-direction: row;
+        align-items: center;
+    }
+    .creations-title {
+        width: 50%;
+        order: 1;
+        margin-bottom: 70px;
+    }
+    .creations-title h2 {
+        text-align: left;
+        font-size: 2rem;
+        margin: 0;
+    }
+    .btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0 0 70px 292px;
+        order: 1;
+        height: 5vh;
+    }
+    .see-btn {
+        width: 100%;
+        padding: 0 50px 0 50px;
+    }
+    .landscape-img {
+        display: none;    
+    }
+    .portrait-img {
+        display: block;
+        padding-bottom: 15%;
+    }
+    .images-grid {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        order: 2;
+    }
+    footer {
+        height: 20vh;
+        position: relative;
+    }
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-logo {
+        margin: 45px 0 0px 0 ;
+        justify-content: left;
+        }
+    .footer-links ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .footer-links ul li {
+        padding-right: 10px;
+        padding-top: 12px;
+        margin-top: 0;
+    }
+    .socials-container {
+        justify-content: right;
+    }
 }
 
-.img-right {
-    margin-top: 15%;
-    height: 30vh;  
-}
-
-.VR-container {
-    margin-top: 5%;
-}
-
-.VR-text h2 {
-    padding-top: 5%;
-    font-size: 2rem;
-}
-
-.VR-text p {    
-    font-size: 15px;
-}
-
-.creations-title {
-    margin-top: 5%;
-}
-
-.creations-title h2 {
-    font-size: 2rem;
-}
-
-.btn {
-    margin-top: 5%;
-}
-
-.btn h4 {
-    padding: 0;
-    font-size: 15px;
-}
+@media(min-width: 1156px) {
+    .logo {
+        top: 70px;
+        left: 150px; 
+    }
+    .mainMenu {
+        top: 60px;
+        right: 150px; 
+    }
+    .header-text {
+        top: 300px;
+        left: 150px;
+        width: 60%;
+        padding: 70px;
+    }
+    .header-text h1 {
+        font-size: 5rem;
+        }
+    .img-left img {
+        position: absolute;
+        left: 90px;
+        width: 60%;
+    }
+    .img-right {
+        padding: 70px;
+        width: 50%;
+        left: 690px;
+        top: 200px
+    }
+    .creations-section {
+        position: relative;
+        justify-content: space-between;
+        width: 1150px;
+        top: 600px;
+        left: 80px;
+    }
+    .VR-text h2 {
+        font-size: 3rem;
+    }
+    .creations-title h2 {
+        font-size: 3rem;
+    }
+   .images-grid {
+       left: 90px;
+       margin-bottom: 200px;
+    }
+    .portrait-img {
+        padding: 0 5px 70px 0;
+    }
+    .bottom-left{
+        bottom: 100px;
+    }
+    footer {
+        top: 200px;
+    }
 }
